@@ -8,7 +8,7 @@ upload or sync with large file
   rclone --transfers=32 --checkers=16 --drive-chunk-size=16384k --drive-upload-cutoff=16384k --stats-log-level NOTICE   -vvv  -L sync
  
  download
- rclone --transfers=12  copy
+ rclone --transfers=12  --stats-log-level NOTICE   -vvv copy 
 
 
 Delete file in folder
