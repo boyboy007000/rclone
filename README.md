@@ -10,6 +10,7 @@ upload or sync with large file
  download
  rclone --transfers=12  --stats-log-level NOTICE   -vvv copy 
 
+--drive-root-folder-id
 
 Delete file in folder
 rclone delete epu:rclone/ --drive-use-trash=false --min-size=1B
